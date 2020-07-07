@@ -1,0 +1,142 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+* {
+   scroll-behavior: smooth;
+}
+
+ion-label.pokemon.Normal {
+   background-color: #a8a878
+}
+
+ion-label.pokemon.Fire {
+   background-color: #f08030
+}
+
+ion-label.pokemon.Water {
+   background-color: #6890f0
+}
+
+ion-label.pokemon.Grass {
+   background-color: #78c850
+}
+
+ion-label.pokemon.Poison {
+   background-color: #a040a0
+}
+
+ion-label.pokemon.Electric {
+   background-color: #f8d030
+}
+
+ion-label.pokemon.Ground {
+   background-color: #e0c068
+}
+
+ion-label.pokemon.Psychic {
+   background-color: #f85888
+}
+
+ion-label.pokemon.Rock {
+   background-color: #b8a038
+}
+
+ion-label.pokemon.Ice {
+   background-color: #98d8d8
+}
+
+ion-label.pokemon.Bug {
+   background-color: #a8b820
+}
+
+ion-label.pokemon.Dragon {
+   background-color: #7038f8
+}
+
+ion-label.pokemon.Ghost {
+   background-color: #705898
+}
+
+ion-label.pokemon.Steel {
+   background-color: #b8b8d0
+}
+
+ion-label.pokemon.Fairy {
+   background-color: #ee99ac
+}
+
+ion-label.pokemon.Dark {
+   background-color: #705848
+}
+
+ion-label.pokemon.Flying {
+   background-color: #a890f0
+}
+
+ion-label.pokemon.Fighting {
+   background-color: #c02038
+}
+
+ion-label.pokemon.legendary {
+   color: #c600ff;
+   font-weight: 700
+}
+
+ion-label.pokemon.mythical {
+   color: #ff8000;
+   font-weight: 700
+}
+
+ion-label.pokemon:first-child {
+   padding: 2.5px 0;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+}
+
+ion-label.pokemon:last-child {
+   padding: 2.5px 0;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+}
+
+ion-label.pokemon:not(:first-child),
+ion-label.pokemon:not(:last-child) {
+   padding: 2.5px 0;
+   border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+}
+
+ion-label {
+   font-weight: bold;
+   text-align: center;
+}
+
+ion-label.pokemon {
+   color: white !important;
+}
